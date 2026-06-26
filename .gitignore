@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+container-cleaner/node_modules/
+
+# Build output
+container-cleaner/dist/
+container-cleaner/.vite/
+
+# Environment / local config
+.env
+.env.local
+.env.*.local
+
+# Editor & OS
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Input / test data files
+input files/
+
+# Misc
+*.tgz
+*.local
