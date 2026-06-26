@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "npm run build && vercel --prod",
+    "git": "git -C .. add -A && git -C .. commit -m \"chore: update source\" && git -C .. push"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

@@ -172,6 +172,10 @@ export default function App() {
             </Typography>
             <Typography variant="caption" display="block" sx={{ opacity: 0.55, mt: 0.5 }}>
               © {new Date().getFullYear()} · All rights reserved · v1.0.0
+              {" "}·{" "}Released:{" "}
+              {new Date(__BUILD_DATE__).toLocaleDateString("en-GB", {
+                day: "2-digit", month: "short", year: "numeric",
+              })}
             </Typography>
           </Box>
         </Container>
